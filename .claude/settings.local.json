@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python create_barber_db.py)",
+      "Bash(python3 create_barber_db.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
