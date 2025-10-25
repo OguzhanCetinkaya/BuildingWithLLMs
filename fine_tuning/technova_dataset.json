@@ -1,0 +1,1102 @@
+[
+  {
+    "input": "Our DataSync Pro dashboard isn't updating the real-time metrics. It's been stuck for 2 hours. We have a board meeting in 30 minutes!",
+    "output": {
+      "category": "DataSync-RealTimeIssue",
+      "priority": "Critical",
+      "product": "DataSync Pro",
+      "action": "Restart DataSync ingestion pipeline, verify WebSocket connections",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "15 minutes"
+    }
+  },
+  {
+    "input": "Getting error code TN-5521 when trying to export reports from AnalyticsPulse. Tried 3 times already.",
+    "output": {
+      "category": "AnalyticsPulse-ExportError",
+      "priority": "High",
+      "product": "AnalyticsPulse",
+      "action": "Check export queue status, verify storage quota, clear cache",
+      "escalate_to": "Analytics Support L2",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "How do I set up role-based permissions in SecureVault for our new interns? Need it done by tomorrow.",
+    "output": {
+      "category": "SecureVault-PermissionConfig",
+      "priority": "Medium",
+      "product": "SecureVault",
+      "action": "Send permission setup guide, offer configuration call",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "CloudBridge integration with Salesforce keeps timing out during sync. Error TN-7723.",
+    "output": {
+      "category": "CloudBridge-IntegrationTimeout",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Increase timeout threshold, check Salesforce API limits, verify OAuth tokens",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "Can someone explain the difference between WorkflowMax Basic and WorkflowMax Enterprise plans?",
+    "output": {
+      "category": "WorkflowMax-Billing",
+      "priority": "Low",
+      "product": "WorkflowMax",
+      "action": "Send pricing comparison sheet, schedule demo if interested",
+      "escalate_to": "Sales Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "API calls to DataSync are returning 429 errors. We're only making 50 requests per minute but hitting rate limits.",
+    "output": {
+      "category": "DataSync-APIRateLimit",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Review account rate limits, check for concurrent sessions, upgrade tier if needed",
+      "escalate_to": "API Support Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "Need to add 15 more user licenses to our AnalyticsPulse account ASAP. How fast can this be done?",
+    "output": {
+      "category": "AnalyticsPulse-LicenseExpansion",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Process license addition, send updated invoice",
+      "escalate_to": "Billing Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "SecureVault mobile app crashes every time I try to access the audit logs. iPhone 14, latest iOS.",
+    "output": {
+      "category": "SecureVault-MobileCrash",
+      "priority": "High",
+      "product": "SecureVault",
+      "action": "Collect crash logs, verify app version, test on similar device",
+      "escalate_to": "Mobile Development Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "Getting TN-9912 error when uploading CSV files larger than 100MB to DataSync. Smaller files work fine.",
+    "output": {
+      "category": "DataSync-UploadSizeLimit",
+      "priority": "Medium",
+      "product": "DataSync Pro",
+      "action": "Enable chunked upload mode, verify account upload limits",
+      "escalate_to": "DataSync Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax automation rules stopped triggering yesterday evening. No changes were made on our end.",
+    "output": {
+      "category": "WorkflowMax-AutomationFailure",
+      "priority": "Critical",
+      "product": "WorkflowMax",
+      "action": "Check automation service status, review recent deployments, restart automation engine",
+      "escalate_to": "WorkflowMax Engineering Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "How do we integrate CloudBridge with our internal PostgreSQL database? Is there documentation?",
+    "output": {
+      "category": "CloudBridge-DatabaseIntegration",
+      "priority": "Medium",
+      "product": "CloudBridge",
+      "action": "Send PostgreSQL integration guide, verify network connectivity requirements",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse dashboard is loading very slowly today. Takes 30+ seconds. Usually instant.",
+    "output": {
+      "category": "AnalyticsPulse-Performance",
+      "priority": "High",
+      "product": "AnalyticsPulse",
+      "action": "Check database query performance, verify CDN status, review recent data growth",
+      "escalate_to": "Performance Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "Can I get a copy of our contract? Need to review the SLA terms for SecureVault.",
+    "output": {
+      "category": "SecureVault-ContractRequest",
+      "priority": "Low",
+      "product": "SecureVault",
+      "action": "Retrieve contract from CRM, send securely via email",
+      "escalate_to": "Legal Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "DataSync Pro stopped syncing with our Snowflake warehouse. Connection test passes but no data flows.",
+    "output": {
+      "category": "DataSync-SnowflakeSync",
+      "priority": "Critical",
+      "product": "DataSync Pro",
+      "action": "Verify Snowflake credentials, check sync job logs, test data pipeline",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "Need training materials for WorkflowMax for our team of 20. Prefer video tutorials.",
+    "output": {
+      "category": "WorkflowMax-Training",
+      "priority": "Low",
+      "product": "WorkflowMax",
+      "action": "Send video tutorial library, offer live training session",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "CloudBridge webhook notifications aren't being received. Checked our endpoint - it's working fine.",
+    "output": {
+      "category": "CloudBridge-WebhookFailure",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Test webhook delivery, check retry queue, verify endpoint SSL certificate",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "Error TN-3344 when trying to create new workspace in AnalyticsPulse. Says quota exceeded but we're under limit.",
+    "output": {
+      "category": "AnalyticsPulse-QuotaError",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Audit current workspace count, recalculate quota, adjust limits if needed",
+      "escalate_to": "Analytics Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "SecureVault 2FA isn't working. Users aren't receiving SMS codes. This is blocking everyone!",
+    "output": {
+      "category": "SecureVault-2FAFailure",
+      "priority": "Critical",
+      "product": "SecureVault",
+      "action": "Check SMS gateway status, enable email 2FA backup, verify phone numbers",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "Want to upgrade from WorkflowMax Basic to Enterprise. What's the process and pricing?",
+    "output": {
+      "category": "WorkflowMax-UpgradeRequest",
+      "priority": "Medium",
+      "product": "WorkflowMax",
+      "action": "Send upgrade pricing and feature comparison, schedule migration call",
+      "escalate_to": "Sales Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "DataSync scheduled jobs are running 2 hours late. This is causing downstream issues.",
+    "output": {
+      "category": "DataSync-ScheduleDelay",
+      "priority": "Critical",
+      "product": "DataSync Pro",
+      "action": "Check scheduler service health, review job queue, prioritize delayed jobs",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "CloudBridge is showing 'connection refused' for our Azure blob storage. Credentials are correct.",
+    "output": {
+      "category": "CloudBridge-AzureConnection",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Verify Azure firewall rules, check storage account status, test connection string",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "Can we get custom branding on our AnalyticsPulse dashboards? Want to add our company logo.",
+    "output": {
+      "category": "AnalyticsPulse-Customization",
+      "priority": "Low",
+      "product": "AnalyticsPulse",
+      "action": "Check if Enterprise plan feature, send branding customization guide",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "SecureVault audit logs are missing entries from last week. Need these for compliance review.",
+    "output": {
+      "category": "SecureVault-AuditLogGap",
+      "priority": "Critical",
+      "product": "SecureVault",
+      "action": "Investigate log retention, check backup logs, escalate to compliance team",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax email notifications are going to spam folder. How do we whitelist TechNova emails?",
+    "output": {
+      "category": "WorkflowMax-EmailDeliverability",
+      "priority": "Low",
+      "product": "WorkflowMax",
+      "action": "Send email whitelist instructions, provide SPF/DKIM records",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "Getting TN-8801 error in DataSync when trying to connect to MySQL 8.0 database.",
+    "output": {
+      "category": "DataSync-MySQLConnection",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Verify MySQL version compatibility, check authentication plugin, update connection parameters",
+      "escalate_to": "DataSync Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "Need to export all data from AnalyticsPulse for quarterly board report. What's the best format?",
+    "output": {
+      "category": "AnalyticsPulse-DataExport",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Recommend Excel format, provide export instructions, offer report template",
+      "escalate_to": "Analytics Support L1",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "CloudBridge API documentation link returns 404. Can't find integration examples.",
+    "output": {
+      "category": "CloudBridge-DocumentationIssue",
+      "priority": "Medium",
+      "product": "CloudBridge",
+      "action": "Send correct documentation URL, verify docs site status, provide example code",
+      "escalate_to": "Documentation Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "SecureVault password reset emails aren't arriving. Checked spam - nothing there either.",
+    "output": {
+      "category": "SecureVault-PasswordReset",
+      "priority": "High",
+      "product": "SecureVault",
+      "action": "Check email service status, verify email address, manually reset if needed",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "WorkflowMax is showing incorrect currency conversion rates. We're billed in EUR but see USD prices.",
+    "output": {
+      "category": "WorkflowMax-CurrencyIssue",
+      "priority": "Medium",
+      "product": "WorkflowMax",
+      "action": "Verify account currency settings, update exchange rates, regenerate invoices",
+      "escalate_to": "Billing Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "DataSync ingestion is dropping records. Source has 10,000 but only 9,847 appear in destination.",
+    "output": {
+      "category": "DataSync-DataLoss",
+      "priority": "Critical",
+      "product": "DataSync Pro",
+      "action": "Investigate sync logs for errors, check data validation rules, verify transformation logic",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "Can multiple users edit the same AnalyticsPulse report simultaneously? Getting conflicts.",
+    "output": {
+      "category": "AnalyticsPulse-CollaborationIssue",
+      "priority": "Low",
+      "product": "AnalyticsPulse",
+      "action": "Explain collaborative editing limitations, suggest workflow best practices",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "CloudBridge batch processing job failed with TN-6677. Processing 500GB of data.",
+    "output": {
+      "category": "CloudBridge-BatchFailure",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Check job logs for specific error, verify storage capacity, restart with smaller batches",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "SecureVault isn't syncing with Active Directory. Last successful sync was 48 hours ago.",
+    "output": {
+      "category": "SecureVault-ADSyncFailure",
+      "priority": "Critical",
+      "product": "SecureVault",
+      "action": "Verify AD connector status, check service account permissions, review sync logs",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "Need API keys for WorkflowMax. Where do I generate them?",
+    "output": {
+      "category": "WorkflowMax-APIAccess",
+      "priority": "Low",
+      "product": "WorkflowMax",
+      "action": "Send API key generation guide, verify API access is enabled on plan",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "DataSync transform rules aren't being applied. Data arrives in raw format.",
+    "output": {
+      "category": "DataSync-TransformFailure",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Review transform configuration, test rules individually, check execution order",
+      "escalate_to": "DataSync Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse charts aren't rendering in IE11. Says browser not supported.",
+    "output": {
+      "category": "AnalyticsPulse-BrowserCompatibility",
+      "priority": "Low",
+      "product": "AnalyticsPulse",
+      "action": "Inform IE11 is deprecated, recommend Chrome/Edge/Firefox, send compatibility matrix",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "15 minutes"
+    }
+  },
+  {
+    "input": "CloudBridge FTP connection keeps timing out after 60 seconds. Need longer timeout.",
+    "output": {
+      "category": "CloudBridge-FTPTimeout",
+      "priority": "Medium",
+      "product": "CloudBridge",
+      "action": "Configure extended timeout, check firewall keep-alive settings, verify network stability",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "SecureVault role permissions seem to have reset overnight. All custom roles gone.",
+    "output": {
+      "category": "SecureVault-RoleReset",
+      "priority": "Critical",
+      "product": "SecureVault",
+      "action": "Check for accidental configuration changes, restore from backup, investigate cause",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax invoice templates aren't saving changes. Edit works but reverts after refresh.",
+    "output": {
+      "category": "WorkflowMax-TemplateSaveIssue",
+      "priority": "Medium",
+      "product": "WorkflowMax",
+      "action": "Clear browser cache, test in different browser, check for concurrent edits",
+      "escalate_to": "WorkflowMax Support L2",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "DataSync Pro trial expires in 3 days. How do we purchase full license?",
+    "output": {
+      "category": "DataSync-PurchaseRequest",
+      "priority": "Medium",
+      "product": "DataSync Pro",
+      "action": "Send pricing options, connect with sales representative, ensure data continuity",
+      "escalate_to": "Sales Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "AnalyticsPulse scheduled reports are being sent to wrong email addresses.",
+    "output": {
+      "category": "AnalyticsPulse-EmailRouting",
+      "priority": "High",
+      "product": "AnalyticsPulse",
+      "action": "Review recipient list configuration, verify email address changes, update distribution",
+      "escalate_to": "Analytics Support L2",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "Getting CORS errors when calling CloudBridge API from our web app. What domains should we whitelist?",
+    "output": {
+      "category": "CloudBridge-CORSIssue",
+      "priority": "Medium",
+      "product": "CloudBridge",
+      "action": "Provide allowed origins list, guide through CORS configuration, verify API endpoint",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "SecureVault is showing 'certificate expired' warning. Is this affecting security?",
+    "output": {
+      "category": "SecureVault-CertificateExpiry",
+      "priority": "Critical",
+      "product": "SecureVault",
+      "action": "Renew SSL certificate immediately, verify certificate chain, notify affected users",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "WorkflowMax dashboard widgets are showing data from yesterday. Not refreshing.",
+    "output": {
+      "category": "WorkflowMax-DashboardStale",
+      "priority": "Medium",
+      "product": "WorkflowMax",
+      "action": "Force dashboard refresh, check cache settings, verify data pipeline status",
+      "escalate_to": "WorkflowMax Support L1",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "DataSync is consuming too much memory. Server crashes when processing large datasets.",
+    "output": {
+      "category": "DataSync-MemoryIssue",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Analyze memory usage patterns, adjust batch sizes, recommend infrastructure upgrade",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "Can AnalyticsPulse connect to Google BigQuery? Need to visualize our BigQuery data.",
+    "output": {
+      "category": "AnalyticsPulse-DataSourceRequest",
+      "priority": "Low",
+      "product": "AnalyticsPulse",
+      "action": "Confirm BigQuery integration available, send connection guide, offer setup assistance",
+      "escalate_to": "Analytics Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "CloudBridge logs show error TN-4455 repeatedly. Happening every 5 minutes.",
+    "output": {
+      "category": "CloudBridge-RecurringError",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Identify error root cause, check for retry loops, implement error handling",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "SecureVault backup job failed last night. Error says storage full but we have space.",
+    "output": {
+      "category": "SecureVault-BackupFailure",
+      "priority": "Critical",
+      "product": "SecureVault",
+      "action": "Verify actual storage usage, check backup destination, manually trigger backup",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "WorkflowMax mobile app version 2.3.1 not available on App Store. Still showing 2.2.9.",
+    "output": {
+      "category": "WorkflowMax-AppUpdate",
+      "priority": "Low",
+      "product": "WorkflowMax",
+      "action": "Check App Store approval status, notify when available, provide release notes",
+      "escalate_to": "Mobile Development Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "DataSync validation rules are rejecting valid records. False positive rate is 15%.",
+    "output": {
+      "category": "DataSync-ValidationIssue",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Review validation logic, adjust thresholds, provide example of false positives",
+      "escalate_to": "DataSync Support L2",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse API rate limit seems too low. We're hitting limits during peak hours daily.",
+    "output": {
+      "category": "AnalyticsPulse-RateLimitIncrease",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Review current usage patterns, discuss rate limit increase options",
+      "escalate_to": "Sales Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "SecureVault session timeout is too aggressive. Users get logged out every 15 minutes.",
+    "output": {
+      "category": "SecureVault-SessionConfig",
+      "priority": "Low",
+      "product": "SecureVault",
+      "action": "Adjust session timeout settings, explain security implications, document changes",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "DataSync incremental sync is not detecting new records. Full sync works but takes too long.",
+    "output": {
+      "category": "DataSync-IncrementalSyncIssue",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Check timestamp tracking, verify change detection logic, review sync markers",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax webhook payload format changed without notice. Our integration broke.",
+    "output": {
+      "category": "WorkflowMax-WebhookBreaking",
+      "priority": "Critical",
+      "product": "WorkflowMax",
+      "action": "Revert to previous payload format, send migration guide, notify of future changes",
+      "escalate_to": "WorkflowMax Engineering Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "CloudBridge S3 bucket permissions keep resetting. Have to reconfigure every week.",
+    "output": {
+      "category": "CloudBridge-S3Permissions",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Investigate permission reset cause, implement persistent configuration, add monitoring",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse drill-down feature not working on bar charts. Works fine on line charts.",
+    "output": {
+      "category": "AnalyticsPulse-ChartInteraction",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Reproduce issue, check chart configuration, log bug if confirmed",
+      "escalate_to": "Analytics Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "Getting TN-2211 when trying to archive old DataSync jobs. Need to free up space.",
+    "output": {
+      "category": "DataSync-ArchivalError",
+      "priority": "Medium",
+      "product": "DataSync Pro",
+      "action": "Check archive storage status, verify job selection criteria, manually archive if needed",
+      "escalate_to": "DataSync Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "SecureVault SAML configuration wizard is confusing. Can someone walk us through it?",
+    "output": {
+      "category": "SecureVault-SAMLSetup",
+      "priority": "Medium",
+      "product": "SecureVault",
+      "action": "Schedule SAML configuration call, send setup checklist, offer screen share assistance",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax is sending duplicate notifications for the same event. Getting 3-4 emails per action.",
+    "output": {
+      "category": "WorkflowMax-DuplicateNotifications",
+      "priority": "High",
+      "product": "WorkflowMax",
+      "action": "Check notification rules for duplicates, verify event trigger configuration, deduplicate",
+      "escalate_to": "WorkflowMax Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "CloudBridge data transformation is adding extra spaces to string fields. Breaking our parser.",
+    "output": {
+      "category": "CloudBridge-DataTransform",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Review transformation rules, add trim function, test with sample data",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "Need to migrate from AnalyticsPulse Basic to Enterprise. What's the downtime?",
+    "output": {
+      "category": "AnalyticsPulse-Migration",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Schedule zero-downtime migration, send preparation checklist, assign migration specialist",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "DataSync error TN-1133: Connection pool exhausted. Should we increase pool size?",
+    "output": {
+      "category": "DataSync-ConnectionPool",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Analyze connection usage, adjust pool size, identify connection leaks",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "SecureVault API tokens are expiring every 24 hours. Documentation says 30 days.",
+    "output": {
+      "category": "SecureVault-TokenExpiry",
+      "priority": "Medium",
+      "product": "SecureVault",
+      "action": "Verify token configuration, check for account-specific policies, update settings",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "WorkflowMax calculated fields showing wrong values. Formula looks correct in editor.",
+    "output": {
+      "category": "WorkflowMax-FormulaError",
+      "priority": "High",
+      "product": "WorkflowMax",
+      "action": "Review formula syntax, test with sample data, check for data type mismatches",
+      "escalate_to": "WorkflowMax Support L2",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "CloudBridge is not preserving file metadata during transfers. Need timestamps and permissions.",
+    "output": {
+      "category": "CloudBridge-MetadataLoss",
+      "priority": "Medium",
+      "product": "CloudBridge",
+      "action": "Enable metadata preservation option, verify supported attributes, test transfer",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse query builder is generating invalid SQL. Getting syntax errors.",
+    "output": {
+      "category": "AnalyticsPulse-SQLGeneration",
+      "priority": "High",
+      "product": "AnalyticsPulse",
+      "action": "Review query builder logic, identify problematic patterns, log bug report",
+      "escalate_to": "Analytics Engineering Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "DataSync job monitoring dashboard shows 'no data' but jobs are running fine.",
+    "output": {
+      "category": "DataSync-MonitoringIssue",
+      "priority": "Low",
+      "product": "DataSync Pro",
+      "action": "Check monitoring service health, verify metrics collection, refresh dashboard",
+      "escalate_to": "DataSync Support L1",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "SecureVault IP whitelist is blocking our new office. Need to add 203.0.113.0/24 range.",
+    "output": {
+      "category": "SecureVault-IPWhitelist",
+      "priority": "High",
+      "product": "SecureVault",
+      "action": "Add IP range to whitelist, verify no conflicts, test access from new location",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "30 minutes"
+    }
+  },
+  {
+    "input": "WorkflowMax approval workflows are skipping the second approver. Goes straight to final approval.",
+    "output": {
+      "category": "WorkflowMax-ApprovalFlow",
+      "priority": "Critical",
+      "product": "WorkflowMax",
+      "action": "Audit workflow configuration, check conditional logic, test with sample request",
+      "escalate_to": "WorkflowMax Engineering Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "CloudBridge compression is not working. Files are same size before and after transfer.",
+    "output": {
+      "category": "CloudBridge-CompressionIssue",
+      "priority": "Low",
+      "product": "CloudBridge",
+      "action": "Verify compression settings enabled, check supported file types, measure actual savings",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "AnalyticsPulse real-time dashboard has 5-minute delay. Should be instant.",
+    "output": {
+      "category": "AnalyticsPulse-RealTimeDelay",
+      "priority": "High",
+      "product": "AnalyticsPulse",
+      "action": "Check streaming pipeline status, verify cache settings, review data source latency",
+      "escalate_to": "Analytics Engineering Team",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "DataSync is silently failing. No error messages but data isn't syncing.",
+    "output": {
+      "category": "DataSync-SilentFailure",
+      "priority": "Critical",
+      "product": "DataSync Pro",
+      "action": "Enable verbose logging, check for suppressed exceptions, investigate job status",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "SecureVault group memberships not updating from LDAP. Manual changes work fine.",
+    "output": {
+      "category": "SecureVault-LDAPSync",
+      "priority": "High",
+      "product": "SecureVault",
+      "action": "Verify LDAP sync schedule, check bind credentials, review sync logs for errors",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax custom fields are not appearing in API responses. Visible in UI though.",
+    "output": {
+      "category": "WorkflowMax-APIFields",
+      "priority": "Medium",
+      "product": "WorkflowMax",
+      "action": "Check API field mapping, verify custom field configuration, update API documentation",
+      "escalate_to": "WorkflowMax Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "CloudBridge retry mechanism is causing data duplication. Same records synced multiple times.",
+    "output": {
+      "category": "CloudBridge-DataDuplication",
+      "priority": "Critical",
+      "product": "CloudBridge",
+      "action": "Implement idempotency checks, review retry logic, add deduplication filter",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse pivot tables are showing incorrect totals. Individual values correct but sum is wrong.",
+    "output": {
+      "category": "AnalyticsPulse-PivotCalculation",
+      "priority": "High",
+      "product": "AnalyticsPulse",
+      "action": "Verify aggregation logic, check for filtering issues, test with simplified dataset",
+      "escalate_to": "Analytics Engineering Team",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "DataSync character encoding is corrupting non-ASCII characters. UTF-8 configured but still broken.",
+    "output": {
+      "category": "DataSync-EncodingIssue",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Verify source and destination encoding, check transformation rules, test with sample data",
+      "escalate_to": "DataSync Support L2",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "SecureVault login page is loading very slowly on mobile. Desktop is fine.",
+    "output": {
+      "category": "SecureVault-MobilePerformance",
+      "priority": "Medium",
+      "product": "SecureVault",
+      "action": "Analyze mobile page load time, optimize assets, test on various devices",
+      "escalate_to": "Mobile Development Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax data retention policy is deleting records too early. Set to 5 years but deleting at 3.",
+    "output": {
+      "category": "WorkflowMax-RetentionPolicy",
+      "priority": "Critical",
+      "product": "WorkflowMax",
+      "action": "Halt automatic deletion, verify policy configuration, restore deleted records if possible",
+      "escalate_to": "WorkflowMax Engineering Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "CloudBridge is not respecting our bandwidth limits. Saturating the connection during business hours.",
+    "output": {
+      "category": "CloudBridge-BandwidthControl",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Configure bandwidth throttling, set time-based QoS rules, monitor usage",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse geospatial maps are not rendering. Error TN-7788 in console.",
+    "output": {
+      "category": "AnalyticsPulse-GeoVisualization",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Check map service status, verify API keys, test with sample coordinates",
+      "escalate_to": "Analytics Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "DataSync is showing 'license expired' but we renewed last month. Have the invoice.",
+    "output": {
+      "category": "DataSync-LicenseIssue",
+      "priority": "Critical",
+      "product": "DataSync Pro",
+      "action": "Verify license activation, manually update license key, contact billing to confirm",
+      "escalate_to": "Billing Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "SecureVault password complexity rules are too strict. Users can't create compliant passwords.",
+    "output": {
+      "category": "SecureVault-PasswordPolicy",
+      "priority": "Medium",
+      "product": "SecureVault",
+      "action": "Review password policy, suggest balanced security settings, implement changes",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "WorkflowMax Gantt chart is displaying tasks in wrong order. Chronologically incorrect.",
+    "output": {
+      "category": "WorkflowMax-GanttDisplay",
+      "priority": "Medium",
+      "product": "WorkflowMax",
+      "action": "Check task sorting logic, verify date fields, test with different date ranges",
+      "escalate_to": "WorkflowMax Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "CloudBridge JSON parsing error TN-3366. Valid JSON according to validators.",
+    "output": {
+      "category": "CloudBridge-JSONParsing",
+      "priority": "High",
+      "product": "CloudBridge",
+      "action": "Test with provided JSON sample, check for edge cases, update parser if needed",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse color schemes are not accessible. Need WCAG 2.1 AA compliant palettes.",
+    "output": {
+      "category": "AnalyticsPulse-Accessibility",
+      "priority": "Low",
+      "product": "AnalyticsPulse",
+      "action": "Provide accessible color palette options, send implementation guide, offer customization",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "DataSync parallel processing is causing deadlocks on target database.",
+    "output": {
+      "category": "DataSync-Deadlock",
+      "priority": "Critical",
+      "product": "DataSync Pro",
+      "action": "Reduce parallelism, implement transaction isolation, add retry with backoff",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "SecureVault compliance reports are missing required fields for SOC 2 audit.",
+    "output": {
+      "category": "SecureVault-ComplianceReport",
+      "priority": "High",
+      "product": "SecureVault",
+      "action": "Identify missing fields, update report template, regenerate historical reports",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax task dependencies are creating circular references. System won't save.",
+    "output": {
+      "category": "WorkflowMax-CircularDependency",
+      "priority": "High",
+      "product": "WorkflowMax",
+      "action": "Identify circular path, provide visualization, guide user to break cycle",
+      "escalate_to": "WorkflowMax Support L2",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "CloudBridge connection pooling is leaking connections. Pool exhausted after 6 hours.",
+    "output": {
+      "category": "CloudBridge-ConnectionLeak",
+      "priority": "Critical",
+      "product": "CloudBridge",
+      "action": "Enable connection leak detection, review code for unclosed connections, restart service",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse Python API client throwing SSL certificate verification errors.",
+    "output": {
+      "category": "AnalyticsPulse-SSLError",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Verify certificate chain, update root certificates, provide SSL troubleshooting guide",
+      "escalate_to": "Analytics Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "DataSync error TN-9944: Destination table schema mismatch. Auto-detect not working.",
+    "output": {
+      "category": "DataSync-SchemaMismatch",
+      "priority": "High",
+      "product": "DataSync Pro",
+      "action": "Compare source and destination schemas, provide migration script, offer manual mapping",
+      "escalate_to": "DataSync Support L2",
+      "estimated_resolution": "3 hours"
+    }
+  },
+  {
+    "input": "SecureVault user provisioning API is rate limited at 10 requests/minute. Need higher limit.",
+    "output": {
+      "category": "SecureVault-ProvisioningRateLimit",
+      "priority": "Medium",
+      "product": "SecureVault",
+      "action": "Review provisioning needs, discuss batch provisioning, adjust rate limits if justified",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax time tracking is rounding to nearest 15 minutes. Need 1-minute precision.",
+    "output": {
+      "category": "WorkflowMax-TimeTracking",
+      "priority": "Low",
+      "product": "WorkflowMax",
+      "action": "Adjust time rounding settings, verify billing configuration, document changes",
+      "escalate_to": "Customer Success Team",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "CloudBridge file checksums don't match after transfer. Data integrity concern.",
+    "output": {
+      "category": "CloudBridge-ChecksumMismatch",
+      "priority": "Critical",
+      "product": "CloudBridge",
+      "action": "Halt transfers, verify checksum algorithm, investigate transfer integrity, run diagnostics",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "AnalyticsPulse custom SQL queries timeout after 30 seconds. Complex queries need more time.",
+    "output": {
+      "category": "AnalyticsPulse-QueryTimeout",
+      "priority": "Medium",
+      "product": "AnalyticsPulse",
+      "action": "Adjust query timeout settings, suggest query optimization, enable long-running queries",
+      "escalate_to": "Analytics Support L2",
+      "estimated_resolution": "1 hour"
+    }
+  },
+  {
+    "input": "DataSync CDC (change data capture) is missing some updates. Not all changes syncing.",
+    "output": {
+      "category": "DataSync-CDCIssue",
+      "priority": "Critical",
+      "product": "DataSync Pro",
+      "action": "Verify CDC configuration, check transaction log, identify missing change patterns",
+      "escalate_to": "DataSync Engineering Team",
+      "estimated_resolution": "4 hours"
+    }
+  },
+  {
+    "input": "SecureVault OAuth2 refresh tokens are not being issued. Only getting access tokens.",
+    "output": {
+      "category": "SecureVault-OAuth2Config",
+      "priority": "High",
+      "product": "SecureVault",
+      "action": "Check OAuth2 scope configuration, verify grant type settings, test token flow",
+      "escalate_to": "Security Team",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "WorkflowMax bulk import failed at row 1,247 of 5,000. Error TN-5599. No details.",
+    "output": {
+      "category": "WorkflowMax-BulkImportFailure",
+      "priority": "High",
+      "product": "WorkflowMax",
+      "action": "Retrieve detailed error log, identify problematic row, provide data correction guidance",
+      "escalate_to": "WorkflowMax Support L2",
+      "estimated_resolution": "2 hours"
+    }
+  },
+  {
+    "input": "CloudBridge is converting all timestamps to UTC. Need to preserve original timezone.",
+    "output": {
+      "category": "CloudBridge-TimezoneIssue",
+      "priority": "Medium",
+      "product": "CloudBridge",
+      "action": "Configure timezone preservation option, test with sample data, document behavior",
+      "escalate_to": "Integration Team",
+      "estimated_resolution": "2 hours"
+    }
+  }
+]
